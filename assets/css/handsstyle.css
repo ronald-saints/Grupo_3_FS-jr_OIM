@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.app-features{
+    width: 730px;
+    height: 64px;
+    margin-top: 50PX;
+    margin-right: 35%;
+    margin-left: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.content{
+    margin-top: 10px;
+    margin-right: 35%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+    gap: 32px;
+    width: 563px;
+    height: 746px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+
+}
+.mobile{
+    position: absolute;
+    left: 950px;
+}
+img{
+    height: 610px;
+    width: 305px;
+    left: 4px;
+    top: 0px;
+    border-radius: 0px;
+
+}
+/*.mobile{
+position: relative;
+    left: 600px;
+    top: 150px;
+    border-radius: 0px;
+    
+
+    box-sizing: border-box;
+    width: 205px;
+    height: 410px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: 10px 15px 30px rgba(41, 41, 42, 0.5);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}*/
+.cuadrados{
+    position: absolute;
+    width: 266px;
+    height: 251px;
+    left: 691px;
+    top: 380px;
+    content: url(/assets/img/all-img/bgi2.png);
+}
+.lista-feature{
+    list-style:none
+}
+.padre{
+    display: grid;
+    position: absolute;
+    top: 240px;
+    text-align: center;
+    width: 72px;
+    height: 72px;
+    border-radius: 100%;
+    flex: none;
+    background: #F4F5F7;
+}
+.hijo-mayor{
+    position: relative;
+    align-self: center;
+    display: flex;
+    justify-self: center;
+    justify-items: center; 
+}
+.div-hijo1{
+    position: absolute;
+    right: 9px;
+    height: 24px;
+    width: 7px;
+    background: #8C30F5;
+    border-radius: 0px;
+}
+.div-hijo2{
+    height: 24px;
+    width: 7px;
+    background: #2EC5CE;
+    border-radius: 0px;
+}
+.div-hijo3{
+    height: 12px;
+    width: 6px;
+    left: 10px;
+    top: 6px;
+    position: absolute;
+    content:url(/img/3.png);
+}
+.titulo1{
+    position: relative;
+    height: 52px;
+    width: 428px;
+    left: 80px;
+    top: 40px;
+    border-radius: nullpx;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+p{
+    position: relative;
+    height: 52px;
+    width: 428px;
+    left: 80px;
+    top: 40px;
+    border-radius: nullpx;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.li-feature2{
+    margin-top: 48px;
+}
+.titulo2{
+    position: relative;
+    height: 52px;
+    width: 428px;
+    left: 80px;
+    top: 40px;
+    border-radius: nullpx;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.padre2{
+    display: grid;
+    position: absolute;
+    top: 400px;
+    text-align: center;
+    height: 72px;
+    width: 72px;
+    border-radius: 100px;
+    flex: none;
+    background: #F4F5F7;
+}
+.hijo-mayor2{
+    position: absolute;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    justify-items: center; 
+}
+.div-hijo01{
+    width: 22px;
+    height: 6px;
+    left: 1px;
+    top: 1px;
+    border-radius: 0px;
+    position: relative;
+    left: 4.17%;
+    right: 4.17%;
+    top: 4.17%;
+    bottom: 70.83%;
+    margin-bottom: 14px;
+    -ms-transform: skew(-30deg, 0deg);
+    -webkit-transform: skew(-30deg, 0deg);
+    transform: skew(-30deg, 0deg);
+    background: #8C30F5;
+}
+.div-hijo02{
+
+    height: 6px;
+    width: 22px;
+    left: 1px;
+    top: 9px;
+    border-radius: 0px;
+    position: absolute;
+    left: 4.17%;
+    right: 4.17%;
+    top: 37.5%;
+    bottom: 37.5%;
+    -ms-transform: skew(-30deg, 0deg);
+    -webkit-transform: skew(-30deg, 0deg);
+    transform: skew(-30deg, 0deg);
+    background: #2EC5CE;    
+}
+.div-hijo03{
+    height: 6px;
+    width: 22px;
+    left: 1px;
+    top: 17px;
+    border-radius: 0px;
+    position: absolute;
+    left: 4.17%;
+    right: 4.17%;
+    top: 70.83%;
+    bottom: 4.17%;
+    margin-top: 1px;
+    -ms-transform: skew(-30deg, 0deg);
+    -webkit-transform: skew(-30deg, 0deg);
+    transform: skew(-30deg, 0deg);
+    background: #D6B1FF;
+}
+.padre3{
+    display: grid;
+    position: absolute;
+    top: 560px;
+    text-align: center;
+    height: 72px;
+    width: 72px;
+    border-radius: 100px;
+    flex: none;
+    background: #F4F5F7;    
+    flex: none;
+    order: 0;
+    flex-grow: 0; 
+}
+.hijo-mayor3{
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: calc(50% - 24px/2);
+    top: calc(50% - 24px/2);
+    content: url(/img/icon3.png);    
+    
+}
+.titulo3{
+    position: relative;
+    height: 52px;
+    width: 428px;
+    left: 80px;
+    top: 60px;
+    border-radius: nullpx;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.padre4{
+    display: grid;
+    position: absolute;
+    top: 720px;
+    text-align: center;
+    height: 72px;
+    width: 72px;
+    border-radius: 100px;
+    flex: none;
+    background: #F4F5F7;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.hijo-mayor4{
+    height: 24px;
+    width: 24px;
+    left: 24px;
+    top: 24px;
+    border-radius: 0px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: calc(50% - 24px/2);
+    top: calc(50% - 24px/2);
+    content: url(/img/icon4.png);
+}
