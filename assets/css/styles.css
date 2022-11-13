@@ -1,4 +1,27 @@
 @charset "UTF-8";
+.amazing-screen {
+  background-color: #08b3ea;
+}
+
+.section-title {
+  color: black;
+}
+
+.parrafo-carrusel {
+  color: black;
+}
+
+#carouselExampleIndicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #6419d9;
+  margin: 7px;
+}
+
+#carouselExampleIndicators button:hover {
+  background-color: violet;
+}
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
