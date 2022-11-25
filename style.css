@@ -25,3 +25,16 @@ card1{
     width: 60px;
     height: 60px;
 }
+
+#preText{
+    text-align: center;
+    font-size: large;
+}
+#preText1{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+#preText2{
+    margin-left: 15px;
+}
